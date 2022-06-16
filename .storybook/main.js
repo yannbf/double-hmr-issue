@@ -11,7 +11,7 @@ module.exports = {
   ],
   "framework": "@storybook/react",
   "core": {
-    "builder": "@storybook/builder-webpack5"
+    "builder": "webpack5"
   },
   "webpackFinal": (config) => {
       const path = require('path');
