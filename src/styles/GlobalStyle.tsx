@@ -2,7 +2,7 @@ import { createGlobalStyle, css } from 'styled-components'
 
 import { breakpoints } from './breakpoints'
 import { resetCSS } from './CSSReset'
-// import 'react-multi-carousel/lib/styles.css'
+import 'react-multi-carousel/lib/styles.css'
 
 export const GlobalStyle = createGlobalStyle(
   ({ theme: { color } }) => css`
