@@ -1,4 +1,4 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react'
+// import { ComponentStory, ComponentMeta } from '@storybook/react'
 
 import { Footer } from './Footer'
 
@@ -8,14 +8,16 @@ export default {
   parameters: {
     layout: 'fullscreen',
   },
-} as ComponentMeta<typeof Footer>
+}// as ComponentMeta<typeof Footer>
 
-const Template: ComponentStory<typeof Footer> = () => (
-  <div style={{ position: 'relative', height: '100vh' }}>
-    <div style={{ position: 'absolute', bottom: 0, width: '100%' }}>
-      <Footer />
-    </div>
-  </div>
-)
+const Template = () => <div>Hello</div>
+
+// const Template: ComponentStory<typeof Footer> = () => (
+//   <div style={{ position: 'relative', height: '100vh' }}>
+//     <div style={{ position: 'absolute', bottom: 0, width: '100%' }}>
+//       <Footer />
+//     </div>
+//   </div>
+// )
 
 export const Default = Template.bind({})
