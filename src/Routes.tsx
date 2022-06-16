@@ -17,7 +17,7 @@ export const AppRoutes: React.FC<{ children?: any }> = ({ children }) => {
 
   return (
     <>
-      <div id="modal" />
+      <div id="modal" /> 
       <Routes>
         <Route path="/categories" element={<CategoryListPage />} />
         <Route path="/categories/:id" element={<CategoryDetailPage />} />
